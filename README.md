@@ -17,11 +17,12 @@ This script automates the download of conference call transcripts for a specific
     # Otherwise, download download_concalls.py manually
     ```
 
-2.  **Install Playwright:**
-    Playwright is used for browser automation to fetch the page content.
+2.  **Install dependencies:**
+    This script uses Playwright for browser automation. Install it and other potential dependencies using:
     ```bash
-    pip install playwright
+    pip install -r requirements.txt
     ```
+    (The `requirements.txt` file primarily includes `playwright`.)
 
 3.  **Install browser drivers for Playwright:**
     This command downloads the necessary browser binaries (Chromium, Firefox, WebKit) for Playwright.
