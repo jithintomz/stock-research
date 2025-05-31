@@ -1,0 +1,7 @@
+# Ignore log files
+*.log
+download_log.txt
+
+# Ignore downloaded transcripts
+download_dir/
+concall_transcripts/
